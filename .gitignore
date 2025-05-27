@@ -1,0 +1,16 @@
+# sanal ortam
+.venv/
+
+# PyCharm, VSCode vb.
+.idea/
+.vscode/
+
+# büyük / türetilmiş dosyalar
+outputs/
+data/raw/
+data/processed/
+data/corpus/
+
+# geçici
+__pycache__/
+*.log
