@@ -1,5 +1,5 @@
 from pathlib import Path
-import json     # <- ayrı satır
+import json
 
 chatgpt = {
     "alcohol": (
@@ -23,4 +23,3 @@ out_dir.mkdir(exist_ok=True)
     json.dumps(chatgpt, ensure_ascii=False, indent=2),
     encoding="utf-8"
 )
-print("chatgpt_summaries.json yazıldı ➜", out_dir)

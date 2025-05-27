@@ -5,7 +5,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 BASE   = Path(__file__).resolve().parent.parent
 MODEL  = BASE / "outputs" / "gpt_finetuned"
 OUT    = BASE / "outputs" / "gpt_summaries.json"
-LABELS = ["alcohol", "dvi", "paternity"]           # 3 ana konu
+LABELS = ["alcohol", "dvi", "paternity"]
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model     = AutoModelForCausalLM.from_pretrained(MODEL)
