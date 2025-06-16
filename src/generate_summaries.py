@@ -11,9 +11,9 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model     = AutoModelForCausalLM.from_pretrained(MODEL)
 
 prompts = {
-    "alcohol":   "Summarise the traffic-safety risks of alcohol in two sentences:",
-    "dvi":       "Summarise Disaster Victim Identification (DVI) in two sentences:",
-    "paternity": "Summarise forensic paternity testing in two sentences:"
+    "alcohol":   "Summarize the traffic-safety risks of alcohol in two sentences:",
+    "dvi":       "Summarize Disaster Victim Identification (DVI) in two sentences:",
+    "paternity": "Summarize forensic paternity testing in two sentences:"
 }
 
 def generate(prompt):
